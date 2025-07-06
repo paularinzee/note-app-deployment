@@ -1,4 +1,4 @@
-# notes-app-ci/cd-example
+# notes-app-ci/cd
 Simple Node.js application with unit tests to show how to automate tests using Harness CI!
 
 ## Prerequisites
@@ -7,7 +7,7 @@ Simple Node.js application with unit tests to show how to automate tests using H
 
 ## Install
 ```
-git clone https://github.com/pavanbelagatti/notes-app-cicd.git 
+git clone https://github.com/paularinzee/note-app-deployment.git 
 ```
 ```
 cd notes-app-cicd
