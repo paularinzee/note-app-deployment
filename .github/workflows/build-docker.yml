@@ -40,8 +40,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       # Step 6: Build Docker Image
-      - name: Build Docker Imageapp
-        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/notes-app-:latest .
+      - name: Build Docker Image app
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/notes-app:latest .
 
       # Step 7: Push Docker Image
       - name: Push to Docker Hub
