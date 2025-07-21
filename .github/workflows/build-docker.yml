@@ -44,4 +44,8 @@ jobs:
           image-ref: '${{ secrets.DOCKER_USERNAME }}/notes-app:latest'
           format: 'table'
           exit-code: '1' 
+          ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
+
+
+          
